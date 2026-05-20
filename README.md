@@ -101,6 +101,6 @@ claude mcp add --transport stdio --scope user mysql-schema -- /home/user/gitcode
 
   参考官方文档：
 
-  - Codex MCP 配置：https://www.mintlify.com/openai/codex/configuration/mcp-
-    servers
+  - Codex MCP 配置：https://mintlify.wiki/openai/codex/configuration/mcp-servers
+  
   - Claude Code MCP 配置：https://code.claude.com/docs/en/mcp
