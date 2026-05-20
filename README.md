@@ -12,11 +12,16 @@
 
   初始化依赖和配置：
 
-  cd /home/user/gitcode/mysql-schema-mcp
-  python3 -m venv .venv
-  source .venv/bin/activate
-  pip install -r requirements.txt
-  cp mysql.ini.example mysql.ini
+```shell
+
+
+cd /home/user/gitcode/mysql-schema-mcp
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp mysql.ini.example mysql.ini
+
+```
 
   然后编辑：
 
