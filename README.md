@@ -91,16 +91,13 @@ claude mcp add --transport stdio --scope user mysql-schema -- /home/user/gitcode
 
   ## 5. 常见问题
 
-  - 如果提示找不到 mcp 或 pymysql，说明虚拟环境没装依赖，重新执行 pip install
-    -r requirements.txt。
+  - 如果提示找不到 mcp 或 pymysql，说明虚拟环境没装依赖，重新执行 pip install -r requirements.txt。
   - 如果连接失败，检查 mysql.ini 的 host、port、user、password、database。
-  - 如果工具不出现，优先检查 Python 路径是否是绝对路径：/home/user/gitcode/
-    mysql-schema-mcp/.venv/bin/python。
-  - 如果 Claude Code 项目级共享配置才是你要的，可以改用 .mcp.json；但你的这个
-    MCP 含本机路径和数据库配置，默认更适合 user scope。
+  - 如果工具不出现，优先检查 Python 路径是否是绝对路径：/home/user/gitcode/mysql-schema-mcp/.venv/bin/python。
+  - 如果 Claude Code 项目级共享配置才是你要的，可以改用 .mcp.json；但这个MCP 含本机路径和数据库配置，默认更适合 user scope。
 
   参考官方文档：
 
   - Codex MCP 配置：https://mintlify.wiki/openai/codex/configuration/mcp-servers
-  
+
   - Claude Code MCP 配置：https://code.claude.com/docs/en/mcp
